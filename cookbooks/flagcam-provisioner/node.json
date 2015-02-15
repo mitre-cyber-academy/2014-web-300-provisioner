@@ -1,0 +1,11 @@
+{
+"rails-app" : {
+  "name" : "flagcam",
+  "ssl" : false,
+  "repository": "git@bitbucket.org:mitrectf/flagcam.git",
+  "deploy_key": "-----BEGIN RSA PRIVATE KEY-----\nMIIEpAIBAAKCAQEA+nfQwSG4CcxMX0/0heyH1vi8umBm8JvAqflzHgZ5Keu4x9UU\nZaGoaHjIQCNOzoZIwdEqRr+MsYrXs0tnrHPA/namr0CjxXtfYMB+myu0gg+J55lK\n7qYv5EB5zEHaH3StbGN1d6BjuUyGl8sLXC9xF0qdDpdQFlJHs/U2OSxDQ7XEcE2E\np70RXTbjLY9QnRGS5/fJCYB4TXeDhJTwE1OA25Zb5vvkKhTI0OdfhEmIfzVr4Hlk\nZek4tr2bv50MYd/OKmy+sLmXzFPEAXXoEw+i7RNuEmnVkyFTYqJaFD0dbFL78GEk\n2e+dXTzdNoqdWO3J1O8XYwW5nwL2gCqb0Qe9ZQIDAQABAoIBAQDk6sEW4zSLb/eV\nXURFass0hR4o0ZcD7baHI4A9PvlagSDfMzZzNO7wnQOY6yxJwZ2Z1wvmoYd7dURz\nkEVu7lTDvbnWjyOfiITBru2H8MgH3x/RVt+PgsBewzcOolkzSrZ+S+C+tw6t+u1A\nqsj1Nj8MZJtrDIyb+hOivEkUtAm+RQIobgdUvv96vl1Xn5nwYOCxJKLP6EjTr+Kz\nuRYCtvkUpK45qJfM07YVHHAjyGrlY/KoTl1riz5uSBMSTaq/wXMNM1sG0a2rfrvt\nkyjNlWXoETQWI3JXz+T6DEVrzX/u1D1iti02Tu1YHrDJVQR17IZptRKZoRYXXkaf\nDc1wMotBAoGBAP1mS1hEr/pyZrY4xE/ZEAr8MANHvdOHqZjMfheqoyMuoamcxfl5\nLXjgblWDAFwNZ/draXdvT2uh2TFSggUeUxO9zzP2GyhplhnenwTdF1wjaIV9u/7L\nthnyJHZnwEEMjQjVbyeXbATGInMHGvJ3DpybvCEXerlc9UBh8SX7dhKZAoGBAP0J\n0dPjN2aGTKzFwjNX7FyicUs/Hl4du7MgHh7nbrXs50f4WB58KlLZxHf47HO3q1CF\nXf6UsNITWfouvLlNH1rW2uXDU35u+Jz2ZygjO2ezBzL79NOyRTnKRe/yvRuTW96l\nafwLQGK79iAO4NM1BW1J51879iiCCpMKXa8dDgytAoGARAz0rv/DQr72VnloPwlM\nBac0Pa1GjUghg6dnNXPd29TqFWLEx/qC+7NJ7i0AK7ht80QlTq3V5lHQwi4mPLmo\nFeUjgBDXukKgzNG8YtH9NAFOUIszsXmDrfQZVrMGLnHwbi7jav5/Q8jx93IxCmxu\nwCASpdBoZN9R/bhPyqN9UgECgYANs+NuAwb0AV/Tl13948wD9DQIbCGb3SZV++5F\npCjFp0+bASLce8La+7n8+Tjsx0x6rs45RBoTNkMQHknQCxIgnDP8b0htN1s1PM63\nSLkl03cXVreaYzQGfiKtbMq63I8EDpcftAhHkIAymjuolF133qGt8ZRR+0DRV6Vd\nH0isfQKBgQCbdJPF18uu6dgjCpeUZKMrm1nJu5dyZRx5BSBZuCRLiq03pxR8tqoO\n7wVINicR+nF2qspeb3G8eGg0eUA0kqrE4q5W/uoVRZLCugXJ40fY7Uq9sO0aryvx\neWTVEXb7sFofpXjLH/YkV/uYVrLuehQbabf9ssspmp07LNePNDLecA==\n-----END RSA PRIVATE KEY-----\n"
+},
+  "run_list": [
+    "recipe[rails-app]", "recipe[flagcam-provisioner]"
+  ]
+}
