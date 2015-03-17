@@ -2,7 +2,7 @@
 "rails-app" : {
   "name" : "flagcam",
   "ssl" : false,
-  "repository": "git@github.com:mitre-cyber-academy/2014-web-300.git",
+  "repository": "git@github.com:mitre-cyber-academy/2014-web-300.git"
 },
   "run_list": [
     "recipe[rails-app]", "recipe[flagcam-provisioner]"
